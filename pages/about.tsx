@@ -1,4 +1,5 @@
 import React from 'react'
+import LayoutAdmin from '../Layout/admin'
 
 type Props = {}
 
@@ -8,4 +9,5 @@ const About = (props: Props) => {
   )
 }
 
+About.Layout = LayoutAdmin
 export default About
